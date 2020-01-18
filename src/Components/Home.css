@@ -1,0 +1,16 @@
+.banner{
+
+   text-align: center;
+
+}
+.intro{
+    display: inline-block;
+    width: 300px;
+    text-align: center;
+    font-size: large;
+}
+.content{
+    margin-left: 15%;
+    height: 400px;
+
+}
