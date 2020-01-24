@@ -2,22 +2,34 @@ import React from 'react';
 
 import {Menu, Icon, Button, Layout} from 'antd';
 import './Sider.css';
-import {NavLink} from 'react-router-dom';
+import {Link, NavLink} from 'react-router-dom';
 import Pdf from '../Documents/Derek_Ortega_Resume.pdf';
+
+
 class Sider extends React.Component{
     state = {
         collapsed: false,
 
+    };
+    props = {
+        menuKey: '1',
     };
 
     toggleCollapsed = () => {
 
         this.setState({
             collapsed: !this.state.collapsed,
-
         });
 
     };
+
+ //   menuSelect = e => {
+ //       this.setState(  {
+ //           menuKey: e.key,
+ //       });
+
+ //   };
+
 
     render(){
 
@@ -31,7 +43,9 @@ class Sider extends React.Component{
             <div style={{ width: 200 }}>
 
                 <Menu
-                    defaultSelectedKeys={['1']}
+
+                    onClick={this.menuSelect}
+                    selectedKeys={[this.props.menuKey]}
                     defaultOpenKeys={['sub1']}
                     mode="inline"
                     theme="dark"
@@ -40,18 +54,20 @@ class Sider extends React.Component{
                     <Button type="primary" onClick={this.toggleCollapsed} style={{ marginBottom: 16 }}>
                         <Icon type={this.state.collapsed ? 'menu-unfold' : 'menu-fold'} />
                     </Button>
-                    <Menu.Item key="1">
+                    <Menu.Item key="1" >
                         <Icon type="home" />
                         <span>Home</span>
+                        <Link to= "."/>
                     </Menu.Item>
-                    <Menu.Item key="2">
+                    <Menu.Item key="2" >
                         <Icon type="laptop" />
                         <span>Experience</span>
-
+                        <Link to= './Experience'></Link>
                     </Menu.Item>
                     <Menu.Item key="3">
                         <Icon type="code" />
                         <span>Projects</span>
+                        <Link to={'./Projects'}/>
                     </Menu.Item>
                     <Menu.Item key = '4'>
                         <Icon type = 'github'/>
