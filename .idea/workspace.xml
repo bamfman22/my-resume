@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d2edcc7-39fc-46c8-a79f-8f06cb82a029" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/rSettings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Experience.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Experience.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Project.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Projects.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Home.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Home.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Sider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Sider.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +34,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -115,6 +105,7 @@
       <workItem from="1559065433667" duration="1342000" />
       <workItem from="1579378716445" duration="10475000" />
       <workItem from="1579901632243" duration="1570000" />
+      <workItem from="1582088732965" duration="768000" />
     </task>
     <servers />
   </component>
@@ -131,9 +122,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1141" y="348" key="com.intellij.ide.util.TipDialog" timestamp="1579901940740">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="798" y="298" key="com.intellij.ide.util.TipDialog" timestamp="1582088731767">
+      <screen x="0" y="23" width="1440" height="823" />
     </state>
     <state x="1141" y="348" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579901940740" />
+    <state x="798" y="298" key="com.intellij.ide.util.TipDialog/0.23.1440.823@0.23.1440.823" timestamp="1582088731767" />
   </component>
 </project>

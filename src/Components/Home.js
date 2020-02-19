@@ -19,18 +19,26 @@ const Home = props => (
                     minHeight: '100vh',
                     backgroundImage: `url(${banner})`,
                     backgroundSize: 'cover',
-                    padding: 150
+                    padding: 75
                 }}
             >
                 <div className = 'intro'
                      >
                 <Card
                     title= 'About Me'
-                    style={{width: 1500}}>
+                    style={{minWidth: 250, marginTop: 16}}>
                     <h1>Education</h1>
                     <p>San Jose Sate University</p>
                     <p>B.S Computer Science</p>
                 </Card>
+                    <Card
+                    title = 'Whats good'
+                    style={{minWidth: 250, marginTop: 16}}>
+                        <h1>Projects</h1>
+                        <h2>Hobbies</h2>
+
+
+                    </Card>
                 </div>
             </div>
         </Content>
