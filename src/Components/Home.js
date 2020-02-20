@@ -4,10 +4,12 @@ import { Card, Layout} from 'antd';
 import { withRouter } from 'react-router-dom';
 import banner from '../Images/beach.jpg';
 import Sider from './Sider.js';
+import sjsu from '../Images/sjsu.jpg';
 
 import './Home.css';
 
 const {Content} = Layout;
+
 
 const Home = props => (
     <Layout className="layout">
@@ -25,19 +27,21 @@ const Home = props => (
                 <div className = 'intro'
                      >
                 <Card
-                    title= 'About Me'
-                    style={{minWidth: 250, marginTop: 16}}>
+                    title= 'Education'
+                    style={{minWidth: 250, marginTop: 16}}
+                    cover={<img alt="SJSU" src={sjsu} width={15}/>}>
                     <h1>Education</h1>
-                    <p>San Jose Sate University</p>
-                    <p>B.S Computer Science</p>
+                    <p>San Jose State University</p>
+                    <p>Bachelors of Science - Computer Science</p>
                 </Card>
                     <Card
-                    title = 'Whats good'
+
                     style={{minWidth: 250, marginTop: 16}}>
-                        <h1>Projects</h1>
-                        <h2>Hobbies</h2>
-
-
+                        <h1>About Me</h1>
+                        <p>Im an excited new graduate whos dream is to work with new and emerging technologies! As of right now my journey
+                        has taken me into contracting position with Waymo(Formerly Google's self Driving Car)!</p>
+                        <p>My skills include Programming with React.js, Python, and Java. I have experience using relational databases like
+                        MySql and SQL Server as well Analytic tools like Excel and Tableau.</p>
                     </Card>
                 </div>
             </div>
